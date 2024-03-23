@@ -20,6 +20,7 @@ return {
         capabilities = vim.tbl_deep_extend('force', capabilities, require('cmp_nvim_lsp').default_capabilities())
         require('mason-tool-installer').setup {}
         require('lspconfig').html.setup {}
+        require('lspconfig').bashls.setup {}
         require('lspconfig').lua_ls.setup {
             -- https://luals.github.io/wiki/settings/
             capabilities = capabilities,
