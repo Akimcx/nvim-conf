@@ -38,4 +38,4 @@ map('n', '<leader>e', vim.diagnostic.open_float, 'Show diagnostic [E]rror messag
 map('n', '<leader>bc', '<cmd>bdelete<cr>', 'Close the current buffer')
 map('n', '<leader>bq', '<cmd>wqa<cr>', 'Save and quit file')
 
--- See plugins.telescope
+map('n', '<leader>gg', '<cmd>G<cr>', 'Open the `Git` `Fugitive` window')
