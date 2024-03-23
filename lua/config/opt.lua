@@ -16,10 +16,12 @@ vim.opt.conceallevel = 2
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣', eol = '↩' }
+vim.opt.listchars = { tab = '» ', lead = '·', trail = '·', nbsp = '␣', eol = '↩' }
 vim.opt.scrolloff = 10000
 vim.opt.wildmode = 'longest:full,full'
 vim.opt.hlsearch = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.expandtab = true
+vim.opt.undofile = true
+vim.opt.confirm = true
