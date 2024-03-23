@@ -36,6 +36,7 @@ map('n', ']d', vim.diagnostic.goto_next, 'Go to next [D]iagnostic message')
 map('n', '<leader>e', vim.diagnostic.open_float, 'Show diagnostic [E]rror messages')
 
 map('n', '<leader>bc', '<cmd>bdelete<cr>', 'Close the current buffer')
-map('n', '<leader>bq', '<cmd>wqa<cr>', 'Save and quit file')
+map('n', '<leader>bq', '<cmd>qa<cr>', 'Quit files')
+map('n', '<leader>bs', '<cmd>wqa<cr>', 'Save & quit file')
 
 map('n', '<leader>gg', '<cmd>G<cr>', 'Open the `Git` `Fugitive` window')
